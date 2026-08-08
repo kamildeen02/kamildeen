@@ -1,0 +1,490 @@
+3/3/2023 1:43:16 PM | 
+3/3/2023 1:43:16 PM | 
+Message : database disk image is malformed
+3/3/2023 1:43:16 PM | 
+database disk image is malformed
+3/3/2023 1:43:16 PM | 
+LastTrace : openElement.OEGuideline.DBResults.CreateOrUpdate()
+3/3/2023 1:43:16 PM | 
+Params : 
+3/3/2023 1:43:16 PM | 
+MethodeName : System.Data.SQLite.SQLiteStatement Prepare(System.Data.SQLite.SQLiteConnection, System.String, System.Data.SQLite.SQLiteStatement, UInt32, System.String ByRef)
+3/3/2023 1:43:16 PM | 
+Stamp : 3/3/2023 1:43:15 PM
+3/3/2023 1:43:16 PM | 
+OSFullName : Microsoft Windows 11 Home
+3/3/2023 1:43:16 PM | 
+AvailablePhysicalMemory : 5.11 Go 
+3/3/2023 1:43:16 PM | 
+TotalPhysicalMemory : 15.73 Go 
+3/3/2023 1:43:16 PM | 
+AvailableVirtualMemory : 3.25 Go 
+3/3/2023 1:43:16 PM | 
+TotalVirtualMemory : 4 Go 
+3/3/2023 1:43:16 PM | 
+WorkingSet : 195.9 Mo 
+3/3/2023 1:43:16 PM | 
+PagedMemorySize : 137.68 Mo 
+3/3/2023 1:43:16 PM | 
+TotalMemory : 16.3 Mo 
+3/3/2023 1:43:16 PM | 
+
+3/3/2023 1:43:16 PM | 
+ExTrace : 
+3/3/2023 1:43:16 PM | 
+at openElement.OEGuideline.DBResults.CreateOrUpdate()
+3/3/2023 1:43:16 PM | 
+at openElement.WebSite.WebSite.Open(ActionArg`2 actionArg)
+3/3/2023 1:43:16 PM | 
+
+3/3/2023 1:43:16 PM | 
+OETrace : 
+3/3/2023 1:43:16 PM | 
+at openElement.WebSite.WebSite.Open(ActionArg`2 actionArg)
+3/3/2023 1:43:16 PM | 
+at openElement.WebSite.WebSite._Closure$__._Lambda$__R9-3(ActionArg a0)
+3/3/2023 1:43:16 PM | 
+at openElement.Wait.RunFunction[TResult](FuncWait`1 action, ActionArg param, String text1, String text2, WaitIconType iconType)
+3/3/2023 1:43:16 PM | 
+at openElement.WebSite.WebSite.Open(String path, Boolean createProject)
+3/3/2023 1:43:16 PM | 
+at openElement.Forms.FrmMain.AutoOpenProject()
+3/3/2023 1:43:16 PM | 
+at openElement.Forms.FrmMain.TimerStart_Tick(Object sender, EventArgs e)
+3/3/2023 1:43:16 PM | 
+at openElement.My.MyApplication.Main(String[] Args)
+3/3/2023 1:43:16 PM | 
+
+3/3/2023 1:43:16 PM | 
+------------------
+3/3/2023 1:43:26 PM | 
+3/3/2023 1:43:26 PM | 
+Message : database disk image is malformed
+3/3/2023 1:43:26 PM | 
+database disk image is malformed
+3/3/2023 1:43:26 PM | 
+LastTrace : openElement.OEGuideline.DBResults.CreateOrUpdate()
+3/3/2023 1:43:26 PM | 
+Params : 
+3/3/2023 1:43:26 PM | 
+MethodeName : System.Data.SQLite.SQLiteStatement Prepare(System.Data.SQLite.SQLiteConnection, System.String, System.Data.SQLite.SQLiteStatement, UInt32, System.String ByRef)
+3/3/2023 1:43:26 PM | 
+Stamp : 3/3/2023 1:43:26 PM
+3/3/2023 1:43:26 PM | 
+OSFullName : Microsoft Windows 11 Home
+3/3/2023 1:43:26 PM | 
+AvailablePhysicalMemory : 5.13 Go 
+3/3/2023 1:43:26 PM | 
+TotalPhysicalMemory : 15.73 Go 
+3/3/2023 1:43:26 PM | 
+AvailableVirtualMemory : 3.24 Go 
+3/3/2023 1:43:26 PM | 
+TotalVirtualMemory : 4 Go 
+3/3/2023 1:43:26 PM | 
+WorkingSet : 205.12 Mo 
+3/3/2023 1:43:26 PM | 
+PagedMemorySize : 143.13 Mo 
+3/3/2023 1:43:26 PM | 
+TotalMemory : 18.56 Mo 
+3/3/2023 1:43:26 PM | 
+
+3/3/2023 1:43:26 PM | 
+ExTrace : 
+3/3/2023 1:43:26 PM | 
+at openElement.OEGuideline.DBResults.CreateOrUpdate()
+3/3/2023 1:43:26 PM | 
+at openElement.WebSite.WebSite.Open(ActionArg`2 actionArg)
+3/3/2023 1:43:26 PM | 
+
+3/3/2023 1:43:26 PM | 
+OETrace : 
+3/3/2023 1:43:26 PM | 
+at openElement.WebSite.WebSite.Open(ActionArg`2 actionArg)
+3/3/2023 1:43:26 PM | 
+at openElement.WebSite.WebSite._Closure$__._Lambda$__R9-3(ActionArg a0)
+3/3/2023 1:43:26 PM | 
+at openElement.Wait.RunFunction[TResult](FuncWait`1 action, ActionArg param, String text1, String text2, WaitIconType iconType)
+3/3/2023 1:43:26 PM | 
+at openElement.WebSite.WebSite.Open(String path, Boolean createProject)
+3/3/2023 1:43:26 PM | 
+at openElement.WebSite.WebSite.Open()
+3/3/2023 1:43:26 PM | 
+at openElement.Forms.RibbonCore.RPProject.RPGHome.BBIProjectHomeOpen_ItemClick(Object sender, ItemClickEventArgs e)
+3/3/2023 1:43:26 PM | 
+at openElement.My.MyApplication.Main(String[] Args)
+3/3/2023 1:43:26 PM | 
+
+3/3/2023 1:43:26 PM | 
+------------------
+3/3/2023 1:43:46 PM | 
+3/3/2023 1:43:46 PM | 
+Message : database disk image is malformed
+3/3/2023 1:43:46 PM | 
+database disk image is malformed
+3/3/2023 1:43:46 PM | 
+LastTrace : openElement.OEGuideline.DBResults.CreateOrUpdate()
+3/3/2023 1:43:46 PM | 
+Params : 
+3/3/2023 1:43:46 PM | 
+MethodeName : System.Data.SQLite.SQLiteStatement Prepare(System.Data.SQLite.SQLiteConnection, System.String, System.Data.SQLite.SQLiteStatement, UInt32, System.String ByRef)
+3/3/2023 1:43:46 PM | 
+Stamp : 3/3/2023 1:43:46 PM
+3/3/2023 1:43:46 PM | 
+OSFullName : Microsoft Windows 11 Home
+3/3/2023 1:43:46 PM | 
+AvailablePhysicalMemory : 5.14 Go 
+3/3/2023 1:43:46 PM | 
+TotalPhysicalMemory : 15.73 Go 
+3/3/2023 1:43:46 PM | 
+AvailableVirtualMemory : 3.25 Go 
+3/3/2023 1:43:46 PM | 
+TotalVirtualMemory : 4 Go 
+3/3/2023 1:43:46 PM | 
+WorkingSet : 197.76 Mo 
+3/3/2023 1:43:46 PM | 
+PagedMemorySize : 139.48 Mo 
+3/3/2023 1:43:46 PM | 
+TotalMemory : 16.15 Mo 
+3/3/2023 1:43:46 PM | 
+
+3/3/2023 1:43:46 PM | 
+ExTrace : 
+3/3/2023 1:43:46 PM | 
+at openElement.OEGuideline.DBResults.CreateOrUpdate()
+3/3/2023 1:43:46 PM | 
+at openElement.WebSite.WebSite.Open(ActionArg`2 actionArg)
+3/3/2023 1:43:46 PM | 
+
+3/3/2023 1:43:46 PM | 
+OETrace : 
+3/3/2023 1:43:46 PM | 
+at openElement.WebSite.WebSite.Open(ActionArg`2 actionArg)
+3/3/2023 1:43:46 PM | 
+at openElement.WebSite.WebSite._Closure$__._Lambda$__R9-3(ActionArg a0)
+3/3/2023 1:43:46 PM | 
+at openElement.Wait.RunFunction[TResult](FuncWait`1 action, ActionArg param, String text1, String text2, WaitIconType iconType)
+3/3/2023 1:43:46 PM | 
+at openElement.WebSite.WebSite.Open(String path, Boolean createProject)
+3/3/2023 1:43:46 PM | 
+at openElement.Forms.FrmMain.AutoOpenProject()
+3/3/2023 1:43:46 PM | 
+at openElement.Forms.FrmMain.TimerStart_Tick(Object sender, EventArgs e)
+3/3/2023 1:43:46 PM | 
+at openElement.My.MyApplication.Main(String[] Args)
+3/3/2023 1:43:46 PM | 
+
+3/3/2023 1:43:46 PM | 
+------------------
+3/3/2023 1:44:01 PM | 
+3/3/2023 1:44:01 PM | 
+Message : database disk image is malformed
+3/3/2023 1:44:01 PM | 
+database disk image is malformed
+3/3/2023 1:44:01 PM | 
+LastTrace : openElement.OEGuideline.DBResults.CreateOrUpdate()
+3/3/2023 1:44:01 PM | 
+Params : 
+3/3/2023 1:44:01 PM | 
+MethodeName : System.Data.SQLite.SQLiteStatement Prepare(System.Data.SQLite.SQLiteConnection, System.String, System.Data.SQLite.SQLiteStatement, UInt32, System.String ByRef)
+3/3/2023 1:44:01 PM | 
+Stamp : 3/3/2023 1:44:01 PM
+3/3/2023 1:44:01 PM | 
+OSFullName : Microsoft Windows 11 Home
+3/3/2023 1:44:01 PM | 
+AvailablePhysicalMemory : 5.12 Go 
+3/3/2023 1:44:01 PM | 
+TotalPhysicalMemory : 15.73 Go 
+3/3/2023 1:44:01 PM | 
+AvailableVirtualMemory : 3.24 Go 
+3/3/2023 1:44:01 PM | 
+TotalVirtualMemory : 4 Go 
+3/3/2023 1:44:01 PM | 
+WorkingSet : 207.56 Mo 
+3/3/2023 1:44:01 PM | 
+PagedMemorySize : 144.98 Mo 
+3/3/2023 1:44:01 PM | 
+TotalMemory : 16.61 Mo 
+3/3/2023 1:44:01 PM | 
+
+3/3/2023 1:44:01 PM | 
+ExTrace : 
+3/3/2023 1:44:01 PM | 
+at openElement.OEGuideline.DBResults.CreateOrUpdate()
+3/3/2023 1:44:01 PM | 
+at openElement.WebSite.WebSite.Open(ActionArg`2 actionArg)
+3/3/2023 1:44:01 PM | 
+
+3/3/2023 1:44:01 PM | 
+OETrace : 
+3/3/2023 1:44:01 PM | 
+at openElement.WebSite.WebSite.Open(ActionArg`2 actionArg)
+3/3/2023 1:44:01 PM | 
+at openElement.WebSite.WebSite._Closure$__._Lambda$__R9-3(ActionArg a0)
+3/3/2023 1:44:01 PM | 
+at openElement.Wait.RunFunction[TResult](FuncWait`1 action, ActionArg param, String text1, String text2, WaitIconType iconType)
+3/3/2023 1:44:01 PM | 
+at openElement.WebSite.WebSite.Open(String path, Boolean createProject)
+3/3/2023 1:44:01 PM | 
+at openElement.WebSite.WebSite.Open()
+3/3/2023 1:44:01 PM | 
+at openElement.Forms.RibbonCore.RPProject.RPGHome.BBIProjectHomeOpen_ItemClick(Object sender, ItemClickEventArgs e)
+3/3/2023 1:44:01 PM | 
+at openElement.My.MyApplication.Main(String[] Args)
+3/3/2023 1:44:01 PM | 
+
+3/3/2023 1:44:01 PM | 
+------------------
+3/3/2023 1:45:39 PM | 
+3/3/2023 1:45:39 PM | 
+Message : database disk image is malformed
+3/3/2023 1:45:39 PM | 
+database disk image is malformed
+3/3/2023 1:45:39 PM | 
+LastTrace : openElement.OEGuideline.DBResults.CreateOrUpdate()
+3/3/2023 1:45:39 PM | 
+Params : 
+3/3/2023 1:45:39 PM | 
+MethodeName : System.Data.SQLite.SQLiteStatement Prepare(System.Data.SQLite.SQLiteConnection, System.String, System.Data.SQLite.SQLiteStatement, UInt32, System.String ByRef)
+3/3/2023 1:45:39 PM | 
+Stamp : 3/3/2023 1:45:39 PM
+3/3/2023 1:45:39 PM | 
+OSFullName : Microsoft Windows 11 Home
+3/3/2023 1:45:39 PM | 
+AvailablePhysicalMemory : 5.21 Go 
+3/3/2023 1:45:39 PM | 
+TotalPhysicalMemory : 15.73 Go 
+3/3/2023 1:45:39 PM | 
+AvailableVirtualMemory : 3.24 Go 
+3/3/2023 1:45:39 PM | 
+TotalVirtualMemory : 4 Go 
+3/3/2023 1:45:39 PM | 
+WorkingSet : 219.1 Mo 
+3/3/2023 1:45:39 PM | 
+PagedMemorySize : 149.27 Mo 
+3/3/2023 1:45:39 PM | 
+TotalMemory : 18.15 Mo 
+3/3/2023 1:45:39 PM | 
+
+3/3/2023 1:45:39 PM | 
+ExTrace : 
+3/3/2023 1:45:39 PM | 
+at openElement.OEGuideline.DBResults.CreateOrUpdate()
+3/3/2023 1:45:39 PM | 
+at openElement.WebSite.WebSite.Open(ActionArg`2 actionArg)
+3/3/2023 1:45:39 PM | 
+
+3/3/2023 1:45:39 PM | 
+OETrace : 
+3/3/2023 1:45:39 PM | 
+at openElement.WebSite.WebSite.Open(ActionArg`2 actionArg)
+3/3/2023 1:45:39 PM | 
+at openElement.WebSite.WebSite._Closure$__._Lambda$__R9-3(ActionArg a0)
+3/3/2023 1:45:39 PM | 
+at openElement.Wait.RunFunction[TResult](FuncWait`1 action, ActionArg param, String text1, String text2, WaitIconType iconType)
+3/3/2023 1:45:39 PM | 
+at openElement.WebSite.WebSite.Open(String path, Boolean createProject)
+3/3/2023 1:45:39 PM | 
+at openElement.WebSite.WebSite.Open()
+3/3/2023 1:45:39 PM | 
+at openElement.Forms.RibbonCore.RPProject.RPGHome.BBIProjectHomeOpen_ItemClick(Object sender, ItemClickEventArgs e)
+3/3/2023 1:45:39 PM | 
+at openElement.My.MyApplication.Main(String[] Args)
+3/3/2023 1:45:39 PM | 
+
+3/3/2023 1:45:39 PM | 
+------------------
+3/3/2023 1:46:07 PM | 
+3/3/2023 1:46:07 PM | 
+Message : database disk image is malformed
+3/3/2023 1:46:07 PM | 
+database disk image is malformed
+3/3/2023 1:46:07 PM | 
+LastTrace : openElement.OEGuideline.DBResults.CreateOrUpdate()
+3/3/2023 1:46:07 PM | 
+Params : 
+3/3/2023 1:46:07 PM | 
+MethodeName : System.Data.SQLite.SQLiteStatement Prepare(System.Data.SQLite.SQLiteConnection, System.String, System.Data.SQLite.SQLiteStatement, UInt32, System.String ByRef)
+3/3/2023 1:46:07 PM | 
+Stamp : 3/3/2023 1:46:07 PM
+3/3/2023 1:46:07 PM | 
+OSFullName : Microsoft Windows 11 Home
+3/3/2023 1:46:07 PM | 
+AvailablePhysicalMemory : 5.26 Go 
+3/3/2023 1:46:07 PM | 
+TotalPhysicalMemory : 15.73 Go 
+3/3/2023 1:46:07 PM | 
+AvailableVirtualMemory : 3.25 Go 
+3/3/2023 1:46:07 PM | 
+TotalVirtualMemory : 4 Go 
+3/3/2023 1:46:07 PM | 
+WorkingSet : 220.55 Mo 
+3/3/2023 1:46:07 PM | 
+PagedMemorySize : 149.54 Mo 
+3/3/2023 1:46:07 PM | 
+TotalMemory : 17.97 Mo 
+3/3/2023 1:46:07 PM | 
+
+3/3/2023 1:46:07 PM | 
+ExTrace : 
+3/3/2023 1:46:07 PM | 
+at openElement.OEGuideline.DBResults.CreateOrUpdate()
+3/3/2023 1:46:07 PM | 
+at openElement.WebSite.WebSite.Open(ActionArg`2 actionArg)
+3/3/2023 1:46:07 PM | 
+
+3/3/2023 1:46:07 PM | 
+OETrace : 
+3/3/2023 1:46:07 PM | 
+at openElement.WebSite.WebSite.Open(ActionArg`2 actionArg)
+3/3/2023 1:46:07 PM | 
+at openElement.WebSite.WebSite._Closure$__._Lambda$__R9-3(ActionArg a0)
+3/3/2023 1:46:07 PM | 
+at openElement.Wait.RunFunction[TResult](FuncWait`1 action, ActionArg param, String text1, String text2, WaitIconType iconType)
+3/3/2023 1:46:07 PM | 
+at openElement.WebSite.WebSite.Open(String path, Boolean createProject)
+3/3/2023 1:46:07 PM | 
+at openElement.WebSite.WebSite.Open()
+3/3/2023 1:46:07 PM | 
+at openElement.Forms.RibbonCore.RPProject.RPGHome.BBIProjectHomeOpen_ItemClick(Object sender, ItemClickEventArgs e)
+3/3/2023 1:46:07 PM | 
+at openElement.My.MyApplication.Main(String[] Args)
+3/3/2023 1:46:07 PM | 
+
+3/3/2023 1:46:07 PM | 
+------------------
+3/3/2023 3:53:21 PM | 
+3/3/2023 3:53:21 PM | 
+Message : database disk image is malformed
+3/3/2023 3:53:21 PM | 
+database disk image is malformed
+3/3/2023 3:53:21 PM | 
+LastTrace : openElement.OEGuideline.DBResults.CreateOrUpdate()
+3/3/2023 3:53:21 PM | 
+Params : 
+3/3/2023 3:53:21 PM | 
+MethodeName : System.Data.SQLite.SQLiteStatement Prepare(System.Data.SQLite.SQLiteConnection, System.String, System.Data.SQLite.SQLiteStatement, UInt32, System.String ByRef)
+3/3/2023 3:53:21 PM | 
+Stamp : 3/3/2023 3:53:21 PM
+3/3/2023 3:53:21 PM | 
+OSFullName : Microsoft Windows 11 Home
+3/3/2023 3:53:21 PM | 
+AvailablePhysicalMemory : 5.1 Go 
+3/3/2023 3:53:21 PM | 
+TotalPhysicalMemory : 15.73 Go 
+3/3/2023 3:53:21 PM | 
+AvailableVirtualMemory : 3.22 Go 
+3/3/2023 3:53:21 PM | 
+TotalVirtualMemory : 4 Go 
+3/3/2023 3:53:21 PM | 
+WorkingSet : 161.78 Mo 
+3/3/2023 3:53:21 PM | 
+PagedMemorySize : 151.21 Mo 
+3/3/2023 3:53:21 PM | 
+TotalMemory : 15.62 Mo 
+3/3/2023 3:53:21 PM | 
+
+3/3/2023 3:53:21 PM | 
+ExTrace : 
+3/3/2023 3:53:21 PM | 
+at openElement.OEGuideline.DBResults.CreateOrUpdate()
+3/3/2023 3:53:21 PM | 
+at openElement.WebSite.WebSite.Open(ActionArg`2 actionArg)
+3/3/2023 3:53:21 PM | 
+
+3/3/2023 3:53:21 PM | 
+OETrace : 
+3/3/2023 3:53:21 PM | 
+at openElement.WebSite.WebSite.Open(ActionArg`2 actionArg)
+3/3/2023 3:53:21 PM | 
+at openElement.WebSite.WebSite._Closure$__._Lambda$__R9-3(ActionArg a0)
+3/3/2023 3:53:21 PM | 
+at openElement.Wait.RunFunction[TResult](FuncWait`1 action, ActionArg param, String text1, String text2, WaitIconType iconType)
+3/3/2023 3:53:21 PM | 
+at openElement.WebSite.WebSite.Open(String path, Boolean createProject)
+3/3/2023 3:53:21 PM | 
+at openElement.WebSite.WebSite.Open()
+3/3/2023 3:53:21 PM | 
+at openElement.Forms.RibbonCore.RPProject.RPGHome.BBIProjectHomeOpen_ItemClick(Object sender, ItemClickEventArgs e)
+3/3/2023 3:53:21 PM | 
+at openElement.My.MyApplication.Main(String[] Args)
+3/3/2023 3:53:21 PM | 
+
+3/3/2023 3:53:21 PM | 
+------------------
+3/3/2023 3:54:34 PM | 
+3/3/2023 3:54:34 PM | 
+Message :  = = OEGuideline Bug Report = = 
+3/3/2023 3:54:34 PM | 
+Exception in Process() module ProjWMT.
+3/3/2023 3:54:34 PM | 
+
+3/3/2023 3:54:34 PM | 
+
+3/3/2023 3:54:34 PM | 
+EXCEPTION: Object reference not set to an instance of an object.
+3/3/2023 3:54:34 PM | 
+Stack Trace:
+3/3/2023 3:54:34 PM | 
+   at OEGuideline.DataItems.DBResultsBuffer.LocPageCache.GetTResult(String serial) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\OEGuideline\Process\DataItems\_Manager\DBResultsBuffer.vb:line 901
+3/3/2023 3:54:34 PM | 
+   at OEGuideline.DataItems.DBResultsBuffer.GetTResult(String serial, String culture, Boolean onlyUpdateVersion) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\OEGuideline\Process\DataItems\_Manager\DBResultsBuffer.vb:line 475
+3/3/2023 3:54:34 PM | 
+   at OEGuideline.DataItems.DIManager.GetTResult(String serialR, String culture) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\OEGuideline\Process\DataItems\_Manager\DataItemManager.vb:line 356
+3/3/2023 3:54:34 PM | 
+   at OEGuideline.DataItems.DIProjExtWMT.GlobalXMLResultsGenerator.Process() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\OEGuideline\Process\DataItems\ExternalServices\DIProjExtWMT.vb:line 430
+3/3/2023 3:54:34 PM | 
+   at OEGuideline.DataItems.DIProjExtWMT.GenerateResultsBasedOnInfoAndXML() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\OEGuideline\Process\DataItems\ExternalServices\DIProjExtWMT.vb:line 212
+3/3/2023 3:54:34 PM | 
+   at OEGuideline.Modules.MProjExtWMT.Process() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\OEGuideline\Process\Modules\ExternalServices\MProjExtWMT.vb:line 48
+3/3/2023 3:54:34 PM | 
+   at OEGuideline.Modules.ModuleBase.Run(String processTarget) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\OEGuideline\Process\Modules\_Base\ModuleBase.vb:line 194
+3/3/2023 3:54:34 PM | 
+
+3/3/2023 3:54:34 PM | 
+____________________
+3/3/2023 3:54:34 PM | 
+CurrPage Is Nothing: False
+3/3/2023 3:54:34 PM | 
+
+3/3/2023 3:54:34 PM | 
+
+3/3/2023 3:54:34 PM | 
+EXCEPTION: The given key was not present in the dictionary.
+3/3/2023 3:54:34 PM | 
+Stack Trace:
+3/3/2023 3:54:34 PM | 
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+3/3/2023 3:54:34 PM | 
+   at OEGuideline.DataItems.DBResultsBuffer.OnEndAnalysePage() in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\OEGuideline\Process\DataItems\_Manager\DBResultsBuffer.vb:line 308
+3/3/2023 3:54:34 PM | 
+
+3/3/2023 3:54:34 PM | 
+
+3/3/2023 3:54:34 PM | 
+LastTrace : ExtractEmpty
+3/3/2023 3:54:34 PM | 
+Params : 
+3/3/2023 3:54:34 PM | 
+MethodeName : 
+3/3/2023 3:54:34 PM | 
+Stamp : 3/3/2023 3:54:34 PM
+3/3/2023 3:54:34 PM | 
+
+3/3/2023 3:54:34 PM | 
+ExTrace : 
+3/3/2023 3:54:34 PM | 
+
+3/3/2023 3:54:34 PM | 
+OETrace : 
+3/3/2023 3:54:34 PM | 
+at openElement.OEGuideline.ProcessTools.EndAnalysis(String serial, String bugReport, Boolean isDBBroken)
+3/3/2023 3:54:34 PM | 
+at openElement.HookWinMessage.HandleWndProcMainForm(Message& m)
+3/3/2023 3:54:34 PM | 
+at openElement.Forms.FrmMain.WndProc(Message& m)
+3/3/2023 3:54:34 PM | 
+at openElement.My.MyApplication.Main(String[] Args)
+3/3/2023 3:54:34 PM | 
+
+3/3/2023 3:54:34 PM | 
+------------------

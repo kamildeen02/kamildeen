@@ -1,0 +1,63 @@
+tried to save, made me download something, now insists that I restart OPen Elements every time I try to open that same doc. 
+
+
+Message : The process cannot access the file because it is being used by another process.
+LastTrace : openElement.OEIO.File._InternalDeleteIOSafe(String path)
+Params : Path:C:/Users/kamil/SynologyDrive/openElement/index4\Common/GL/Results.db
+MethodeName : Void WinIOError(Int32, System.String)
+Stamp : 3/3/2023 1:43:59 PM
+OSFullName : Microsoft Windows 11 Home
+AvailablePhysicalMemory : 5.12 Go 
+TotalPhysicalMemory : 15.73 Go 
+AvailableVirtualMemory : 3.24 Go 
+TotalVirtualMemory : 4 Go 
+WorkingSet : 207.56 Mo 
+PagedMemorySize : 144.98 Mo 
+TotalMemory : 16.73 Mo 
+
+ExTrace : 
+at openElement.OEIO.File._InternalDeleteIOSafe(String path)
+at openElement.OEIO.File.Delete(String path, Boolean showError, Boolean logError)
+
+OETrace : 
+at openElement.OEIO.File.Delete(String path, Boolean showError, Boolean logError)
+at openElement.OEGuideline.DBResults.IsDBErrorSignalled_NeedRecreateDB(Boolean deleteDBIfError)
+at openElement.OEGuideline.DBResults.OpenConn(Boolean onlyIfClosed, Boolean resetOnLastError)
+at openElement.WebSite.WebSite.Open(ActionArg`2 actionArg)
+at openElement.WebSite.WebSite._Closure$__._Lambda$__R9-3(ActionArg a0)
+at openElement.Wait.RunFunction[TResult](FuncWait`1 action, ActionArg param, String text1, String text2, WaitIconType iconType)
+at openElement.WebSite.WebSite.Open(String path, Boolean createProject)
+at openElement.WebSite.WebSite.Open()
+at openElement.Forms.RibbonCore.RPProject.RPGHome.BBIProjectHomeOpen_ItemClick(Object sender, ItemClickEventArgs e)
+at openElement.My.MyApplication.Main(String[] Args)
+
+------------------
+Message : database disk image is malformed
+database disk image is malformed
+LastTrace : openElement.OEGuideline.DBResults.CreateOrUpdate()
+Params : 
+MethodeName : System.Data.SQLite.SQLiteStatement Prepare(System.Data.SQLite.SQLiteConnection, System.String, System.Data.SQLite.SQLiteStatement, UInt32, System.String ByRef)
+Stamp : 3/3/2023 1:44:01 PM
+OSFullName : Microsoft Windows 11 Home
+AvailablePhysicalMemory : 5.12 Go 
+TotalPhysicalMemory : 15.73 Go 
+AvailableVirtualMemory : 3.24 Go 
+TotalVirtualMemory : 4 Go 
+WorkingSet : 207.56 Mo 
+PagedMemorySize : 144.98 Mo 
+TotalMemory : 16.81 Mo 
+
+ExTrace : 
+at openElement.OEGuideline.DBResults.CreateOrUpdate()
+at openElement.WebSite.WebSite.Open(ActionArg`2 actionArg)
+
+OETrace : 
+at openElement.WebSite.WebSite.Open(ActionArg`2 actionArg)
+at openElement.WebSite.WebSite._Closure$__._Lambda$__R9-3(ActionArg a0)
+at openElement.Wait.RunFunction[TResult](FuncWait`1 action, ActionArg param, String text1, String text2, WaitIconType iconType)
+at openElement.WebSite.WebSite.Open(String path, Boolean createProject)
+at openElement.WebSite.WebSite.Open()
+at openElement.Forms.RibbonCore.RPProject.RPGHome.BBIProjectHomeOpen_ItemClick(Object sender, ItemClickEventArgs e)
+at openElement.My.MyApplication.Main(String[] Args)
+
+------------------
